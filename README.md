@@ -8,11 +8,9 @@ Voor dit project ga ik SSR optimizen voor het Scrollbook project uit sprint 9.
 ![image](https://user-images.githubusercontent.com/30351629/165926076-e6ef1b74-9be3-427b-91f2-244ac00adf87.png) 
 
 ### Minifying
-Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
-
+Ik heb de CSS geminified
 ### Code splitting
-Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
-
+ThreeJS en GSAP werden op iedere pagina ingeladen terwijl deze alleen op de home pagina werd gebruikt. Ik heb het opgelost door deze bestanden alleen op de index in te laden.
 ### Caching
 Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
 

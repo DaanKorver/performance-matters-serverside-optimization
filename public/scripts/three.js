@@ -1,4 +1,4 @@
-import { getAllBooks } from './modules/api.js'
+import { getAllBooks } from './modules/api.min.js'
 /* Scene ====================================================== */
 const scene = new THREE.Scene()
 scene.background = new THREE.Color(0xffffff)

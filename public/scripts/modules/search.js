@@ -1,5 +1,5 @@
-import { getAllBooks } from './api.js'
-import { render } from './render.js'
+import { getAllBooks } from './api.min.js'
+import { render } from './render.min.js'
 
 const searchResults = document.getElementById('searchResults')
 
