@@ -4,8 +4,8 @@ De scrollbook overview page
 ## Serverside Performance Optimalisatie
 Voor dit project ga ik SSR optimizen voor het Scrollbook project uit sprint 9.
 
-## 📨 Pre-optimization
-![image](https://user-images.githubusercontent.com/30351629/165926076-e6ef1b74-9be3-427b-91f2-244ac00adf87.png) 
+## 📨 Pre optimization
+![pre optimization](https://user-images.githubusercontent.com/30351629/165926076-e6ef1b74-9be3-427b-91f2-244ac00adf87.png) 
 
 ### Minifying
 Ik heb de CSS geminified doormiddel van PostCSS. Daarnaast heb ik zelf ook nog UglifyJS gebruikt om alle JS bestanden te minifyen zodat dit ook minder word.
@@ -19,6 +19,10 @@ Voor de compressie heb ik de express compression package gebruikt.
 
 ## Images
 Voor de images heb ik squoosh.app gebruikt om de SVG's om te zetten naar een PNG. Daarnaast heb ik de images ook geresized naar een redelijker formaat waardoor de filesize ook is gedaald.
+
+## Post optimization
+![post optimization](https://user-images.githubusercontent.com/30351629/165989998-b3c0e208-4a9e-4591-9fe3-e2d94c6de004.png)
+
 
 ## Bronnen
 [PostCSS](https://postcss.org/)
