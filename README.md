@@ -18,9 +18,14 @@ Ik heb de Cache-control header gebruikt zodat er om de 10 minuten een request ka
 Voor de compressie heb ik de express compression package gebruikt.
 
 ## Images
+Voor de images heb ik squoosh.app gebruikt om de SVG's om te zetten naar een PNG. Daarnaast heb ik de images ook geresized naar een redelijker formaat waardoor de filesize ook is gedaald.
 
 ## Bronnen
-Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
+[PostCSS](https://postcss.org/)
+[UglifyJS](https://www.npmjs.com/package/uglify-js)
+[Cache headers in epxress](https://regbrain.com/article/cache-headers-express-js)
+[Express compression middleware](http://expressjs.com/en/resources/middleware/compression.html)
+[Squoosh.app](https://squoosh.app/)
 
 ## Licentie
 
