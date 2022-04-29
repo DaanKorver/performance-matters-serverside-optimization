@@ -1,27 +1,55 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# 🖱️ Scrollbook Dashboard
 
-# Titel
-Geef je project een titel en schrijf in één zin wat het is.
+![Scrollbook Mockup](https://github.com/JustinLung/the-web-is-for-everyone-scrollbook/blob/main/docs/scrollbook-mockup.png?raw=true)
 
-## Serverside Performance Optimalisatie
-Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe. 
+## 📚 Inhoudsopgave
 
-### Minifying
-Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Gebruik](#gebruik)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
-### Code splitting
-Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
+## 📃 Beschrijving
+Dit is de repo voor de Scrollbook Dashboard applicatie waar de content wordt gerenderd met behulp van de REST API & SSR.  
 
-### Caching
-Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
+## 🔮 Kenmerken
 
-### Compressie
-Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
+### Code Skills
+* 📙 HTML
+* 📘 CSS
+* 🚀 JavaScript
+* [🌲 Three.js](https://threejs.org/)
+* [💤 REST API](https://github.com/fdnd-apis/scrollbook)
+* [🍕 NodeJS](https://nodejs.org/en/)
+* [🤳 EJS](https://ejs.co/)
+* [😺 Express](https://expressjs.com/)
 
-## Bronnen
-Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
+### Design Skills
+* 🚀 Figma
+* 🎆 Photoshop
 
-## Licentie
+## ⚡ Installatie & Gebruik
+```
+# Cloning the repository
+git clone https://github.com/JustinLung/the-web-is-for-everyone-scrollbook.git
+
+# Moving to the folder
+cd the-web-is-for-everyone-scrollbook
+
+# Install NPM packages
+npm install
+
+# Run local server
+npm run start
+```
+
+## 🎉 Bronnen
+- [🍉 Scrollbook API](https://github.com/fdnd-apis/scrollbook)
+- [🙊 Scrollbook Prototype](https://joopakerboom.nl/scrollbook-v3/presentation.html)
+
+## 🖼 Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
