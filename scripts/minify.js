@@ -3,7 +3,7 @@ const postcss = require('postcss')
 const cssnano = require('cssnano')
 const fs = require('fs')
 const path = require('path')
-
+const uglifyJS = require('uglify-js')
 const inputCss = path.join(__dirname, '../public/css/style.css')
 const outputCss = path.join(__dirname, '../public/css/style.min.css')
 
@@ -30,5 +30,10 @@ jsFiles.forEach(file=>{
   outputName[2] = 'js'
   outputName = outputName.join('.')
   const outputPath = path.join(__dirname, `../public/scripts/${outputName}`)
-  //Minif JS here
+  //Minify JS here
+  fs.readFile(inputPath, (err, buff)=>{
+    const code = buff.toString()
+    const result = uglifyJS.minify(code)
+    fs.writeFile(outputPath, result.code, ()=> true)
+  })
 })
