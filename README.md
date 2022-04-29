@@ -1,55 +1,28 @@
-# 🖱️ Scrollbook Dashboard
+# 🖱️ Scrollbook SSR optimization
+De scrollbook overview page
 
-![Scrollbook Mockup](https://github.com/JustinLung/the-web-is-for-everyone-scrollbook/blob/main/docs/scrollbook-mockup.png?raw=true)
+## Serverside Performance Optimalisatie
+Voor dit project ga ik SSR optimizen voor het Scrollbook project uit sprint 9.
 
-## 📚 Inhoudsopgave
+## 📨 Pre-optimization
+![image](https://user-images.githubusercontent.com/30351629/165926076-e6ef1b74-9be3-427b-91f2-244ac00adf87.png) 
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+### Minifying
+Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
 
-## 📃 Beschrijving
-Dit is de repo voor de Scrollbook Dashboard applicatie waar de content wordt gerenderd met behulp van de REST API & SSR.  
+### Code splitting
+Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
 
-## 🔮 Kenmerken
+### Caching
+Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
 
-### Code Skills
-* 📙 HTML
-* 📘 CSS
-* 🚀 JavaScript
-* [🌲 Three.js](https://threejs.org/)
-* [💤 REST API](https://github.com/fdnd-apis/scrollbook)
-* [🍕 NodeJS](https://nodejs.org/en/)
-* [🤳 EJS](https://ejs.co/)
-* [😺 Express](https://expressjs.com/)
+### Compressie
+Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
 
-### Design Skills
-* 🚀 Figma
-* 🎆 Photoshop
+## Bronnen
+Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
 
-## ⚡ Installatie & Gebruik
-```
-# Cloning the repository
-git clone https://github.com/JustinLung/the-web-is-for-everyone-scrollbook.git
-
-# Moving to the folder
-cd the-web-is-for-everyone-scrollbook
-
-# Install NPM packages
-npm install
-
-# Run local server
-npm run start
-```
-
-## 🎉 Bronnen
-- [🍉 Scrollbook API](https://github.com/fdnd-apis/scrollbook)
-- [🙊 Scrollbook Prototype](https://joopakerboom.nl/scrollbook-v3/presentation.html)
-
-## 🖼 Licentie
+## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
