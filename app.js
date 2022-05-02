@@ -11,14 +11,13 @@ const detailRoute = require('./routes/detail')
 
 app.set('views', path.join(__dirname + '/views'))
 app.set('view engine', 'ejs')
+app.use(compression())
 app.use(express.static(path.join(__dirname, '/public')))
 //Setting cache header to enable public 10 minute cache
 app.use((req, res, next)=>{
   res.set('Cache-control', 'public, max-age=600')
   next()
 })
-
-app.use(compression())
 
 app.use('/', indexRoute)
 app.use('/book', detailRoute)
